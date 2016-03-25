@@ -4,7 +4,8 @@
   "description": "A wrapper around world airports api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --loose all --out-dir lib",
+    "lint": "eslint src"
   },
   "keywords": [
     "airports"
