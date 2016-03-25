@@ -1,6 +1,6 @@
 import 'promise-polyfill';
 
-export default function search(term) {
+export function worldAirports(term) {
   return new Promise((resolve, reject) => {
     var options = {
       host: 'airports.p.mashape.com',

@@ -11,7 +11,7 @@ $ npm install world-airports --save
 ## Usage
 
 ```js
-import worldAirports from 'world-airports';
+import { worldAirports } from 'world-airports';
 
 worldAirports('lax').then(console.log);
 
